@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Model cache (too large for git)
+.cache/
+*.bin
+*.safetensors
+models/
+checkpoints/
+
+# Hugging Face cache
+~/.cache/huggingface/
+
+# Data files
+*.csv
+*.xlsx
+*.json
+data/
+outputs/
+
+# Evaluation results
+evaluation_report_*.txt
+evaluation_results_*.json
+
+# Gradio temporary files
+gradio_cached_examples/
+flagged/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Large media files (use screenshots/ folder instead)
+*.mp4
+*.avi
+*.mov
+*.wmv
+
+# Don't ignore specific documentation
+!README.md
+!LICENSE
+!requirements.txt
+!docs/

@@ -1,0 +1,19 @@
+# AI Emergency Triage Support System - Requirements
+# CPU-only, optimized for 8GB RAM
+
+# Core ML/NLP
+transformers>=4.38.0
+torch>=2.1.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# UI
+gradio>=4.19.0
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+accelerate>=0.27.0
+
+# Optional for better CPU performance
+optimum>=1.16.0
